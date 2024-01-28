@@ -98,8 +98,8 @@ div {
   
   .btn:hover img {
     content: url('./img/arrow2.png'); /* 호버 시에 다른 이미지로 변경 */
-    transform: translateX(5px); /* translateY 값을 조절하여 이동 거리를 설정 */
-    transition: transform 0.3s; /* transform에 대한 트랜지션 설정 */
+    transform: translateY(5px); /* translateY 값을 조절하여 이동 거리를 설정 */
+    transition: transform 0.1s; /* transform에 대한 트랜지션 설정 */
   }
 
 .contact {
