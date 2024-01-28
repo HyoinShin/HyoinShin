@@ -85,7 +85,6 @@ div {
         color: rgb(203, 255, 0);
         font-weight: 500;
         font-size: 30px;
-        transform: translateY(0.3px);
     }
 
     img {
@@ -94,6 +93,8 @@ div {
 }
 .btn a:hover {
     color: #3A2C52; /* 호버 시의 텍스트 색상 설정 */
+    transform: translateY(0.3px);
+    transition: 0.5;
   }
 .btn:hover img{
     content: url('./img/arrow2.png') /* 호버 시에 다른 이미지로 변경 */
