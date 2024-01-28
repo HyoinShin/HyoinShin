@@ -74,12 +74,21 @@ div {
   position: absolute;
 }
 .btn .read {
+  text-decoration: none; /* 기본 텍스트에 있는 밑줄 제거 */
   color: rgb(203, 255, 0);
   font-weight: 500;
   font-size: 30px;
 }
 .btn img {
   width: 120px;
+}
+
+.btn a:hover {
+  color: #3A2C52; /* 호버 시의 텍스트 색상 설정 */
+}
+
+.btn:hover img {
+  content: url("./img/arrow2.png"); /* 호버 시에 다른 이미지로 변경 */
 }
 
 .contact {
@@ -116,4 +125,4 @@ div {
   .header {
     display: none;
   }
-}/*# sourceMappingURL=resume.css.map */
+}/*# sourceMappingURL=index.css.map */
