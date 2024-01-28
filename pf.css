@@ -74,11 +74,8 @@ li {
   overflow: hidden; /* 내용이 넘치는 경우 숨김 처리 */
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   cursor: pointer;
-}
-.square span {
-  margin-top: 10px;
 }
 
 .square img {
