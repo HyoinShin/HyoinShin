@@ -88,7 +88,7 @@ div {
 }
 
 .btn:hover img {
-  content: url("./img/_이되고싶은.png"); /* 호버 시에 다른 이미지로 변경 */
+  content: url("./img/arrow2.png");
 }
 
 .contact {

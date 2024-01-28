@@ -77,6 +77,9 @@ li {
   margin-bottom: 20px;
   cursor: pointer;
 }
+.square span {
+  margin-top: 10px;
+}
 
 .square img {
   width: 100%; /* 이미지가 부모 요소에 꽉 차도록 설정 */
