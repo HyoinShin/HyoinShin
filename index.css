@@ -78,6 +78,7 @@ div {
   color: rgb(203, 255, 0);
   font-weight: 500;
   font-size: 30px;
+  transform: translateY(0.3px);
 }
 .btn img {
   width: 120px;
