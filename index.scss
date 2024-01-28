@@ -93,7 +93,7 @@ div {
 }
 .btn a:hover {
     // color: #3A2C52; /* 호버 시의 텍스트 색상 설정 */
-    transition: 0.5;
+    transition: 0.5s;
   }
 .btn:hover img{
     content: url('./img/arrow2.png') /* 호버 시에 다른 이미지로 변경 */
