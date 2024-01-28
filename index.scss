@@ -94,6 +94,7 @@ div {
 .btn a:hover {
     color: #3A2C52; /* 호버 시의 텍스트 색상 설정 */
     transition: color 0.3s; /* 텍스트 색상에 대한 트랜지션 설정 */
+    transform: translateX(35px); /* translateY 값을 조절하여 이동 거리를 설정 */
   }
   
   .btn:hover img {
