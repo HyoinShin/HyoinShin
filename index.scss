@@ -91,14 +91,13 @@ div {
         width: 120px;
     }
 }
-.btn a:hover {
-    color: #3A2C52; /* 호버 시의 텍스트 색상 설정 */
-    transition: color 0.3s; /* 텍스트 색상에 대한 트랜지션 설정 */
-    transform: translateX(35px); /* translateY 값을 조절하여 이동 거리를 설정 */
-  }
+// .btn a:hover {
+//     // color: #3A2C52; /* 호버 시의 텍스트 색상 설정 */
+//     transition: color 0.3s; /* 텍스트 색상에 대한 트랜지션 설정 */
+//   }
   
   .btn:hover img {
-    content: url('./img/arrow2.png'); /* 호버 시에 다른 이미지로 변경 */
+    // content: url('./img/arrow2.png'); /* 호버 시에 다른 이미지로 변경 */
     transform: translateX(35px); /* translateY 값을 조절하여 이동 거리를 설정 */
     transition: transform 0.1s; /* transform에 대한 트랜지션 설정 */
   }
