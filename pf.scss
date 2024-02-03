@@ -60,17 +60,15 @@ li {
     display: flex;
     gap: 20PX;
 
-    span {
-        font-size: 16px;
-        font-weight: 500;
-        color: #6E5A96;
-    }
+    // span {
+    //     font-size: 16px;
+    //     font-weight: 500;
+    //     color: #6E5A96;
+    // }
 }
 
 .square {
     width: 45%; /* 박스의 너비 설정 */
-  
-   
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;

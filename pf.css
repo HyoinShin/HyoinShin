@@ -62,11 +62,6 @@ li {
   display: flex;
   gap: 20PX;
 }
-.slist span {
-  font-size: 16px;
-  font-weight: 500;
-  color: #6E5A96;
-}
 
 .square {
   width: 45%; /* 박스의 너비 설정 */
