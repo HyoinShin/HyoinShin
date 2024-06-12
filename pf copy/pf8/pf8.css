@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body {
+  font-family: "Roboto", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+button,
+p,
+div {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+li {
+  font-size: 21px;
+  font-weight: 700;
+  color: #6E5A96;
+  font-style: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.line_parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 95%;
+  /* 선의 길이 (가로 전체) */
+  border-top: 2px solid #6E5A96;
+  /* 선의 두께와 색상 설정 */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.slist {
+  display: flex;
+  gap: 20PX;
+}
+.slist .name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6E5A96;
+}
+
+.pf_img {
+  display: flex;
+  justify-content: center; /* 부모 요소의 가로 방향 가운데 정렬 */
+  align-items: center;
+}
+.pf_img img {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}/*# sourceMappingURL=pf8.css.map */
