@@ -21,10 +21,20 @@ li {
   font-size: 21px;
   font-weight: 700;
   color: #6E5A96;
-  font-style: bold;
   margin-top: 30px;
   margin-bottom: 10px;
   margin-left: 40px;
+}
+li a {
+  text-decoration: none; /* 기본 텍스트에 있는 밑줄 제거 */
+  margin-right: 15px; /* 각 링크 사이에 오른쪽 마진을 추가하여 간격을 띄움 */
+}
+li a:last-child {
+  margin-right: 0; /* 마지막 링크의 오른쪽 마진 제거 */
+}
+li a:hover {
+  color: #ff6a00; /* 호버 시의 텍스트 색상 설정 */
+  transition: color 0.3s; /* 텍스트 색상에 대한 트랜지션 설정 */
 }
 
 .back_img {
