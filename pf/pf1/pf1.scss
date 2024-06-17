@@ -59,7 +59,6 @@ li {
 .slist {
     display: flex;
     gap: 20PX;
-
     .name{
         font-size: 16px;
         font-weight: 700;
@@ -72,6 +71,7 @@ li {
     justify-content: center; /* 부모 요소의 가로 방향 가운데 정렬 */
     align-items: center;
     img{
+    width: 900px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 20px;
